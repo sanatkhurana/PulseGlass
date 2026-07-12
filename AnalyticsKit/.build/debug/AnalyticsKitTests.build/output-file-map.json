@@ -1,0 +1,54 @@
+{
+  "": {
+    "swift-dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/primary.swiftdeps"
+  },
+  "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/Tests/AnalyticsKitTests/CachingAndTimelineTests.swift": {
+    "dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/CachingAndTimelineTests.d",
+    "object": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/CachingAndTimelineTests.swift.o",
+    "swiftmodule": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/CachingAndTimelineTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/CachingAndTimelineTests.swiftdeps",
+    "diagnostics": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/CachingAndTimelineTests.dia"
+  },
+  "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/Tests/AnalyticsKitTests/DomainTests.swift": {
+    "dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/DomainTests.d",
+    "object": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/DomainTests.swift.o",
+    "swiftmodule": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/DomainTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/DomainTests.swiftdeps",
+    "diagnostics": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/DomainTests.dia"
+  },
+  "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/Tests/AnalyticsKitTests/FormattingTests.swift": {
+    "dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/FormattingTests.d",
+    "object": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/FormattingTests.swift.o",
+    "swiftmodule": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/FormattingTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/FormattingTests.swiftdeps",
+    "diagnostics": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/FormattingTests.dia"
+  },
+  "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/Tests/AnalyticsKitTests/HogQLSnapshotTests.swift": {
+    "dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/HogQLSnapshotTests.d",
+    "object": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/HogQLSnapshotTests.swift.o",
+    "swiftmodule": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/HogQLSnapshotTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/HogQLSnapshotTests.swiftdeps",
+    "diagnostics": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/HogQLSnapshotTests.dia"
+  },
+  "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/Tests/AnalyticsKitTests/PostHogClientTests.swift": {
+    "dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/PostHogClientTests.d",
+    "object": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/PostHogClientTests.swift.o",
+    "swiftmodule": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/PostHogClientTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/PostHogClientTests.swiftdeps",
+    "diagnostics": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/PostHogClientTests.dia"
+  },
+  "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/Tests/AnalyticsKitTests/QueryEnvelopeTests.swift": {
+    "dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/QueryEnvelopeTests.d",
+    "object": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/QueryEnvelopeTests.swift.o",
+    "swiftmodule": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/QueryEnvelopeTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/QueryEnvelopeTests.swiftdeps",
+    "diagnostics": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/QueryEnvelopeTests.dia"
+  },
+  "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/Tests/AnalyticsKitTests/WeeklyDigestDecodingTests.swift": {
+    "dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/WeeklyDigestDecodingTests.d",
+    "object": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/WeeklyDigestDecodingTests.swift.o",
+    "swiftmodule": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/WeeklyDigestDecodingTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/WeeklyDigestDecodingTests.swiftdeps",
+    "diagnostics": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitTests.build/WeeklyDigestDecodingTests.dia"
+  }
+}

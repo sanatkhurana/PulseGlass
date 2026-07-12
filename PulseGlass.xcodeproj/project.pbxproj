@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		133FAD8547B5F947AEF08F58 /* VisitorsTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9D8CA037322A77B7FAB2F2 /* VisitorsTimelineProvider.swift */; };
+		2B1F1F06D45E30FAFF2E82F1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17191519EDEC9C161D4AF81D /* SettingsView.swift */; };
+		3F1B118064C910C19D7F3262 /* PulseGlassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8DE6D1E672693B3EFA6398 /* PulseGlassApp.swift */; };
+		53BB9BB58E858C49B46DB678 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0AFED255D5FA7BFB65C3BF /* AppModel.swift */; };
+		53EEB0E717B9818808321CB9 /* SelectProfileIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8A181FC1CE76E1F8FB4A7E /* SelectProfileIntent.swift */; };
+		541C94B2AC2D362398AB06FF /* VisitorsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79190A89A1E6F4752434FE2 /* VisitorsWidget.swift */; };
+		5A0AF6A0F0B494236BA23753 /* AnalyticsKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7E6DE612B9B3452A0A4D35B6 /* AnalyticsKit */; };
+		7E116D07A06899D9A3FE269A /* RegionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C11B612EFCEB10E480283F /* RegionsView.swift */; };
+		90B96653009C7F3DEA05DA82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70857D0190050E40DCF5E303 /* Assets.xcassets */; };
+		931BA91B5C2B554488E35BEF /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C074B0E60451397D5F35C02 /* OnboardingView.swift */; };
+		98BBFADCC70463B6F0E89821 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BB88C700040C775336470 /* DashboardView.swift */; };
+		D824DBCE1A23F99A7A9A2317 /* PulseGlassWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 243A615CDCF1795553BA567F /* PulseGlassWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DD8CDA39314D7BB9F2543475 /* AnalyticsKit in Frameworks */ = {isa = PBXBuildFile; productRef = B03049C5D31FFC6A6D65342F /* AnalyticsKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC8B06004101BA25A93672EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1008F6D9A9209FBD4EB35D71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3A7289580A1EDF64B0E735D;
+			remoteInfo = PulseGlassWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		95D059D7D1258EFDC637D325 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D824DBCE1A23F99A7A9A2317 /* PulseGlassWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		17191519EDEC9C161D4AF81D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		17B2E26E9CE6DA4DA6D64B23 /* PulseGlass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseGlass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		243A615CDCF1795553BA567F /* PulseGlassWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PulseGlassWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C11B612EFCEB10E480283F /* RegionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionsView.swift; sourceTree = "<group>"; };
+		6F0AFED255D5FA7BFB65C3BF /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		70857D0190050E40DCF5E303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C074B0E60451397D5F35C02 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		9B8DE6D1E672693B3EFA6398 /* PulseGlassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseGlassApp.swift; sourceTree = "<group>"; };
+		A78BB88C700040C775336470 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		BB8A181FC1CE76E1F8FB4A7E /* SelectProfileIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectProfileIntent.swift; sourceTree = "<group>"; };
+		C79190A89A1E6F4752434FE2 /* VisitorsWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorsWidget.swift; sourceTree = "<group>"; };
+		DB13CF7CC1ABA8329027F207 /* AnalyticsKit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AnalyticsKit; sourceTree = SOURCE_ROOT; };
+		FA9D8CA037322A77B7FAB2F2 /* VisitorsTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorsTimelineProvider.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B26A8D54152FD6E061E53D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A0AF6A0F0B494236BA23753 /* AnalyticsKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9221CDD4B17838352CA5F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8CDA39314D7BB9F2543475 /* AnalyticsKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BD7EF2EB0F87DBF215CD383 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				DB13CF7CC1ABA8329027F207 /* AnalyticsKit */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		0CCF3E4B2D4F2D43F65CF900 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BB8A181FC1CE76E1F8FB4A7E /* SelectProfileIntent.swift */,
+				FA9D8CA037322A77B7FAB2F2 /* VisitorsTimelineProvider.swift */,
+				C79190A89A1E6F4752434FE2 /* VisitorsWidget.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		0D0D230C12E48B7351060918 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				70857D0190050E40DCF5E303 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BE1B35DC6464A3DC0BE4483B /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				0CCF3E4B2D4F2D43F65CF900 /* Sources */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		C52F143AFAE775E1F2ED9D01 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6F0AFED255D5FA7BFB65C3BF /* AppModel.swift */,
+				A78BB88C700040C775336470 /* DashboardView.swift */,
+				7C074B0E60451397D5F35C02 /* OnboardingView.swift */,
+				9B8DE6D1E672693B3EFA6398 /* PulseGlassApp.swift */,
+				40C11B612EFCEB10E480283F /* RegionsView.swift */,
+				17191519EDEC9C161D4AF81D /* SettingsView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C66209B6E7A6B54F138FCCF7 = {
+			isa = PBXGroup;
+			children = (
+				C6F8EB81D5FB344B6D2BE052 /* App */,
+				0BD7EF2EB0F87DBF215CD383 /* Packages */,
+				BE1B35DC6464A3DC0BE4483B /* Widget */,
+				F7EBDBE4516C5DEB37779375 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6F8EB81D5FB344B6D2BE052 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0D0D230C12E48B7351060918 /* Resources */,
+				C52F143AFAE775E1F2ED9D01 /* Sources */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F7EBDBE4516C5DEB37779375 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17B2E26E9CE6DA4DA6D64B23 /* PulseGlass.app */,
+				243A615CDCF1795553BA567F /* PulseGlassWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3A7289580A1EDF64B0E735D /* PulseGlassWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B61C0355E6DF91C7BE755A77 /* Build configuration list for PBXNativeTarget "PulseGlassWidgetExtension" */;
+			buildPhases = (
+				93C6E1D7E89983047AAFB65F /* Sources */,
+				B9221CDD4B17838352CA5F69 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PulseGlassWidgetExtension;
+			packageProductDependencies = (
+				B03049C5D31FFC6A6D65342F /* AnalyticsKit */,
+			);
+			productName = PulseGlassWidgetExtension;
+			productReference = 243A615CDCF1795553BA567F /* PulseGlassWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		CA13AA34A76A391448FC932E /* PulseGlass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759F39CBA298052DAA519394 /* Build configuration list for PBXNativeTarget "PulseGlass" */;
+			buildPhases = (
+				E9CC5D34D8B0FD9B4F232E99 /* Sources */,
+				5C3AE68A8E208F12EC604C01 /* Resources */,
+				0B26A8D54152FD6E061E53D3 /* Frameworks */,
+				95D059D7D1258EFDC637D325 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF977ABE6C1A9EF2318CF841 /* PBXTargetDependency */,
+			);
+			name = PulseGlass;
+			packageProductDependencies = (
+				7E6DE612B9B3452A0A4D35B6 /* AnalyticsKit */,
+			);
+			productName = PulseGlass;
+			productReference = 17B2E26E9CE6DA4DA6D64B23 /* PulseGlass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1008F6D9A9209FBD4EB35D71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2660;
+			};
+			buildConfigurationList = 12159649D4AB5E0CE80BE151 /* Build configuration list for PBXProject "PulseGlass" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C66209B6E7A6B54F138FCCF7;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5CFFF8BD093BA9090844605D /* XCLocalSwiftPackageReference "AnalyticsKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F7EBDBE4516C5DEB37779375 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA13AA34A76A391448FC932E /* PulseGlass */,
+				C3A7289580A1EDF64B0E735D /* PulseGlassWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C3AE68A8E208F12EC604C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B96653009C7F3DEA05DA82 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93C6E1D7E89983047AAFB65F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EEB0E717B9818808321CB9 /* SelectProfileIntent.swift in Sources */,
+				133FAD8547B5F947AEF08F58 /* VisitorsTimelineProvider.swift in Sources */,
+				541C94B2AC2D362398AB06FF /* VisitorsWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9CC5D34D8B0FD9B4F232E99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53BB9BB58E858C49B46DB678 /* AppModel.swift in Sources */,
+				98BBFADCC70463B6F0E89821 /* DashboardView.swift in Sources */,
+				931BA91B5C2B554488E35BEF /* OnboardingView.swift in Sources */,
+				3F1B118064C910C19D7F3262 /* PulseGlassApp.swift in Sources */,
+				7E116D07A06899D9A3FE269A /* RegionsView.swift in Sources */,
+				2B1F1F06D45E30FAFF2E82F1 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF977ABE6C1A9EF2318CF841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3A7289580A1EDF64B0E735D /* PulseGlassWidgetExtension */;
+			targetProxy = DC8B06004101BA25A93672EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		271BA47D828BF239EC373225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = BJ8X7L85NL;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		2DEC4A94197B2D9E291E084A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Widget/PulseGlassWidget.entitlements;
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.pulseglass.widget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43161C8A95BD24F0E6EDAFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = App/PulseGlass.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.pulseglass;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7DD499BA6646B08BAA33F018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = BJ8X7L85NL;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		A47C7BD4936EDC9A76C2EBB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Widget/PulseGlassWidget.entitlements;
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.pulseglass.widget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C51AC45A1BB47502FA59AB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = App/PulseGlass.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.pulseglass;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12159649D4AB5E0CE80BE151 /* Build configuration list for PBXProject "PulseGlass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271BA47D828BF239EC373225 /* Debug */,
+				7DD499BA6646B08BAA33F018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		759F39CBA298052DAA519394 /* Build configuration list for PBXNativeTarget "PulseGlass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51AC45A1BB47502FA59AB4E /* Debug */,
+				43161C8A95BD24F0E6EDAFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B61C0355E6DF91C7BE755A77 /* Build configuration list for PBXNativeTarget "PulseGlassWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47C7BD4936EDC9A76C2EBB1 /* Debug */,
+				2DEC4A94197B2D9E291E084A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		5CFFF8BD093BA9090844605D /* XCLocalSwiftPackageReference "AnalyticsKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = AnalyticsKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7E6DE612B9B3452A0A4D35B6 /* AnalyticsKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AnalyticsKit;
+		};
+		B03049C5D31FFC6A6D65342F /* AnalyticsKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AnalyticsKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1008F6D9A9209FBD4EB35D71 /* Project object */;
+}

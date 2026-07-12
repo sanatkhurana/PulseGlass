@@ -1,0 +1,89 @@
+{
+  "": {
+    "swift-dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/primary.swiftdeps"
+  },
+  "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/Sources/AnalyticsKit/CountryCentroids.swift": {
+    "dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/CountryCentroids.d",
+    "object": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/CountryCentroids.swift.o",
+    "swiftmodule": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/CountryCentroids~partial.swiftmodule",
+    "swift-dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/CountryCentroids.swiftdeps",
+    "diagnostics": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/CountryCentroids.dia"
+  },
+  "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/Sources/AnalyticsKit/Domain.swift": {
+    "dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/Domain.d",
+    "object": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/Domain.swift.o",
+    "swiftmodule": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/Domain~partial.swiftmodule",
+    "swift-dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/Domain.swiftdeps",
+    "diagnostics": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/Domain.dia"
+  },
+  "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/Sources/AnalyticsKit/Formatting.swift": {
+    "dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/Formatting.d",
+    "object": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/Formatting.swift.o",
+    "swiftmodule": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/Formatting~partial.swiftmodule",
+    "swift-dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/Formatting.swiftdeps",
+    "diagnostics": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/Formatting.dia"
+  },
+  "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/Sources/AnalyticsKit/HogQL.swift": {
+    "dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/HogQL.d",
+    "object": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/HogQL.swift.o",
+    "swiftmodule": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/HogQL~partial.swiftmodule",
+    "swift-dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/HogQL.swiftdeps",
+    "diagnostics": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/HogQL.dia"
+  },
+  "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/Sources/AnalyticsKit/KeychainStore.swift": {
+    "dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/KeychainStore.d",
+    "object": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/KeychainStore.swift.o",
+    "swiftmodule": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/KeychainStore~partial.swiftmodule",
+    "swift-dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/KeychainStore.swiftdeps",
+    "diagnostics": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/KeychainStore.dia"
+  },
+  "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/Sources/AnalyticsKit/Models.swift": {
+    "dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/Models.d",
+    "object": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/Models.swift.o",
+    "swiftmodule": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/Models~partial.swiftmodule",
+    "swift-dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/Models.swiftdeps",
+    "diagnostics": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/Models.dia"
+  },
+  "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/Sources/AnalyticsKit/PostHogClient.swift": {
+    "dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/PostHogClient.d",
+    "object": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/PostHogClient.swift.o",
+    "swiftmodule": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/PostHogClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/PostHogClient.swiftdeps",
+    "diagnostics": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/PostHogClient.dia"
+  },
+  "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/Sources/AnalyticsKit/QueryEnvelope.swift": {
+    "dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/QueryEnvelope.d",
+    "object": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/QueryEnvelope.swift.o",
+    "swiftmodule": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/QueryEnvelope~partial.swiftmodule",
+    "swift-dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/QueryEnvelope.swiftdeps",
+    "diagnostics": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/QueryEnvelope.dia"
+  },
+  "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/Sources/AnalyticsKit/SampleData.swift": {
+    "dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/SampleData.d",
+    "object": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/SampleData.swift.o",
+    "swiftmodule": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/SampleData~partial.swiftmodule",
+    "swift-dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/SampleData.swiftdeps",
+    "diagnostics": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/SampleData.dia"
+  },
+  "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/Sources/AnalyticsKit/SnapshotStore.swift": {
+    "dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/SnapshotStore.d",
+    "object": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/SnapshotStore.swift.o",
+    "swiftmodule": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/SnapshotStore~partial.swiftmodule",
+    "swift-dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/SnapshotStore.swiftdeps",
+    "diagnostics": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/SnapshotStore.dia"
+  },
+  "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/Sources/AnalyticsKit/TimelinePlanner.swift": {
+    "dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/TimelinePlanner.d",
+    "object": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/TimelinePlanner.swift.o",
+    "swiftmodule": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/TimelinePlanner~partial.swiftmodule",
+    "swift-dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/TimelinePlanner.swiftdeps",
+    "diagnostics": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/TimelinePlanner.dia"
+  },
+  "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/Sources/AnalyticsKit/WidgetKinds.swift": {
+    "dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/WidgetKinds.d",
+    "object": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/WidgetKinds.swift.o",
+    "swiftmodule": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/WidgetKinds~partial.swiftmodule",
+    "swift-dependencies": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/WidgetKinds.swiftdeps",
+    "diagnostics": "/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKit.build/WidgetKinds.dia"
+  }
+}
