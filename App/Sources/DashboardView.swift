@@ -20,15 +20,23 @@ struct DashboardView: View {
                     if model.isOffline {
                         BannerView(text: "Offline — showing cached data")
                     }
-                    OverviewTilesGrid(digest: model.digest)
-                    TrendChartCard(trend: model.trend)
-                    if let digest = model.digest {
-                        TopPagesCard(digest: digest, openDashboard: openDashboard)
-                        TopSourcesCard(sources: digest.topSources)
-                        if !digest.goals.isEmpty {
-                            GoalsCard(goals: digest.goals)
+                    // While a freshly selected range loads with no cached
+                    // snapshot, the cards render as dimmed skeletons so it's
+                    // clear their content is being fetched.
+                    Group {
+                        OverviewTilesGrid(digest: model.digest)
+                        TrendChartCard(trend: model.trend)
+                        if let digest = model.digest {
+                            TopPagesCard(digest: digest, openDashboard: openDashboard)
+                            TopSourcesCard(sources: digest.topSources)
+                            if !digest.goals.isEmpty {
+                                GoalsCard(goals: digest.goals)
+                            }
                         }
                     }
+                    .redacted(reason: model.isSwitchingRange ? .placeholder : [])
+                    .opacity(model.isSwitchingRange ? 0.55 : 1)
+                    .animation(.easeInOut(duration: 0.2), value: model.isSwitchingRange)
                     updatedCaption
                 }
                 .padding(.horizontal)
@@ -117,6 +125,7 @@ struct DashboardView: View {
 
 struct RangePicker: View {
     @Environment(AppModel.self) private var model
+    @Namespace private var selectionNamespace
 
     var body: some View {
         HStack(spacing: 4) {
@@ -128,17 +137,36 @@ struct RangePicker: View {
                         .font(.subheadline.weight(model.range == range ? .bold : .regular))
                         .padding(.horizontal, 14)
                         .padding(.vertical, 6)
+                        .contentShape(Capsule())
                         .background {
+                            // The selection is itself a liquid glass lens:
+                            // it refracts/magnifies what's beneath it and
+                            // slides fluidly between segments.
                             if model.range == range {
-                                Capsule().fill(.tint.opacity(0.18))
+                                Color.clear
+                                    .glassEffect(.regular.tint(.accentColor.opacity(0.25)).interactive())
+                                    .matchedGeometryEffect(id: "range-selection", in: selectionNamespace)
                             }
                         }
                 }
                 .buttonStyle(.plain)
             }
+            // Inline processing indicator: visible whenever data for the
+            // selected range is being fetched.
+            if model.isSwitchingRange || model.isRefreshing {
+                ProgressView()
+                    .controlSize(.small)
+                    .padding(.trailing, 8)
+                    .transition(.opacity)
+            }
         }
         .padding(4)
-        .glassEffect()
+        // The track is material, not glass — the moving pill is the single
+        // glass element here, so glass never stacks on glass.
+        .background(.thinMaterial, in: Capsule())
+        .animation(.snappy(duration: 0.28), value: model.range)
+        .animation(.easeInOut(duration: 0.2), value: model.isSwitchingRange)
+        .animation(.easeInOut(duration: 0.2), value: model.isRefreshing)
         .padding(.top, 4)
     }
 }
@@ -154,6 +182,9 @@ struct OverviewTilesGrid: View {
             grid(columns: 2)
             grid(columns: 1)
         }
+        // Drives the tiles' contentTransition(.numericText()) when a new
+        // range's numbers arrive.
+        .animation(.snappy(duration: 0.3), value: digest)
     }
 
     private func grid(columns: Int) -> some View {
@@ -305,6 +336,7 @@ struct TrendChartCard: View {
             }
         }
         .frame(height: 180)
+        .animation(.easeInOut(duration: 0.35), value: trend)
         .chartOverlay { proxy in
             GeometryReader { geometry in
                 Rectangle()
