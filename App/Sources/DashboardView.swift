@@ -336,7 +336,10 @@ struct TrendChartCard: View {
             }
         }
         .frame(height: 180)
-        .animation(.easeInOut(duration: 0.35), value: trend)
+        // Swift Charts on iOS 27 logs invalid frame dimensions when a data swap
+        // of a different length (7D -> 30D/90D) runs inside an animated
+        // transaction, so data changes here must not animate.
+        .transaction { $0.animation = nil }
         .chartOverlay { proxy in
             GeometryReader { geometry in
                 Rectangle()

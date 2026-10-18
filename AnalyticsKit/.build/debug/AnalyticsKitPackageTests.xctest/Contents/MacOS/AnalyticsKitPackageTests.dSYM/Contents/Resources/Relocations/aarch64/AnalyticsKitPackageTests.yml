@@ -1,5 +1,0 @@
----
-triple:          'arm64-apple-darwin'
-binary-path:     '/Users/sanatkhurana/apps/PulseGlass/AnalyticsKit/.build/arm64-apple-macosx/debug/AnalyticsKitPackageTests.xctest/Contents/MacOS/AnalyticsKitPackageTests'
-relocations:     []
-...
